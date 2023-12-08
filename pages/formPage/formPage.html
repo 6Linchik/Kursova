@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Page</title>
+    <link rel="stylesheet" href="../../common.css" />
+    <link rel="stylesheet" href="./formPage.css" />
+  </head>
+  <body class="bg-image">
+    <div class="container">
+      <form class="main-form" id="mainForm">
+        <label>
+          <h3 class="label-title">Type of Living Space</h3>
+          <select name="livingSpace">
+            <option value="Apartment">Apartment</option>
+            <option value="Townhouse">Townhouse</option>
+            <option value="Single Family Home">Single Family Home</option>
+          </select>
+        </label>
+        <label>
+          <h3 class="label-title">Area of the house (in square meters)</h3>
+          <input type="number" name="area" required />
+        </label>
+        <label>
+          <h3 class="label-title">Year of Construction</h3>
+          <div class="range-container">
+            <input type="range" name="year" id="yearRange" />
+            <span id="yearRangeValue"></span>
+          </div>
+        </label>
+        <label>
+          <h3 class="label-title">Type of Heating</h3>
+          <select name="heatingType">
+            <option value="Gas">Gas</option>
+            <option value="Electric">Electric</option>
+            <option value="Oil">Oil</option>
+            <option value="Solar">Solar</option>
+          </select>
+        </label>
+        <label>
+          <h3 class="label-title">Number of Residents</h3>
+          <input type="number" name="residents" required />
+        </label>
+        <label>
+          <h3 class="label-title">Desired room temperature</h3>
+          <div class="range-container">
+            <input type="range" name="roomTemperature" id="roomTemperature" />
+            <span id="roomTemperatureValue"></span>
+          </div>
+        </label>
+        <label>
+          <h3 class="label-title">Do you know the cost of heating?</h3>
+          <div class="radio-container">
+            <label>
+              <input
+                type="radio"
+                name="heatingCostInfo"
+                id="heatingCostInfoYes"
+                value="Yes"
+                required
+                checked
+              />
+              Yes
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="heatingCostInfo"
+                id="heatingCostInfoNo"
+                value="No"
+                required
+              />
+              No
+            </label>
+          </div>
+        </label>
+        <label>
+          <h3 class="label-title">Please enter the cost of heating</h3>
+          <input
+            type="number"
+            name="heatingCostValue"
+            id="heatingCostValue"
+            required
+          />
+        </label>
+
+        <button type="submit" class="submit-btn">Submit</button>
+      </form>
+    </div>
+
+    <script src="./formPage.js" type="module"></script>
+  </body>
+</html>

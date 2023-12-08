@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Result Page</title>
+    <link rel="stylesheet" href="../../common.css" />
+    <link rel="stylesheet" href="./resultPage.css" />
+  </head>
+  <body class="bg-image">
+    <div class="container">
+      <div class="results-container">
+        
+        <h1>Dear User,</h1>
+
+        <p>After a detailed analysis of your heating expenses, we found the following:</p>
+
+        <h2>Energy Efficiency Analysis:</h2>
+        <ul>
+          <li>Your home's energy efficiency level: [level] (scale from 1 to 100)</li>
+          <li>Recommendations for improving energy efficiency:
+            <ul>
+              <li>[recommendation 1]</li>
+              <li>[recommendation 2]</li>
+            </ul>
+          </li>
+        </ul>
+        
+        <img src="../../images/result-range-2.jpeg" alt="house range" />
+
+        <h2>Comparison with Other Users:</h2>
+        <p>Your electricity expenses compared to the average expenses of other users: [less/more] by [percentage]%.
+              Your home proved to be [more/less] energy-efficient compared to other users.</p>
+
+        
+        <img src="../../images/result-cost.png" alt="house range" />
+
+        <h2>Optimization Recommendations:</h2>
+        <ul>
+          <li>Reduce room temperature by [value] degrees. This can significantly reduce energy consumption.</li>
+          <li>Install a programmable thermostat. It provides automatic temperature control in your home.</li>
+          <li>Add additional insulation. Insulating walls and windows helps conserve more energy.</li>
+          <li>Regularly maintain heating systems. Clean and well-tuned systems operate more efficiently.</li>
+          <li>Use energy-efficient light bulbs. Replacing standard bulbs with LED helps save energy.</li>
+        </ul>
+
+        <p>Remember that with proper management and implementation of recommendations, you can significantly reduce your heating expenses and make your home more energy-efficient.</p>
+
+        <p>Thank you for using our service!<br>Best regards,<br>Your Home EC Assistant Team</p>
+
+        <h5>Type of Living Space: <span id="livingSpace"></span></h5>
+        <h5>Area of the house: <span id="area"></span></h5>
+        <h5>Year of Construction: <span id="year"></span></h5>
+        <h5>Type of Heating: <span id="heatingType"></span></h5>
+        <h5>Number of residents: <span id="residents"></span></h5>
+        <h5>Desired room temperature: <span id="roomTemperature"></span></h5>
+      </div>
+    </div>
+    <script type="module" src="./resultPage.js"></script>
+  </body>
+</html>

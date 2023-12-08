@@ -1,0 +1,64 @@
+body {
+  background-image: url("../../images/form-page-bg.png");
+}
+.container {
+  text-align: center;
+}
+
+.results-container {
+  display: inline-block;
+  text-align: left;
+  margin: 50px 0;
+  border-radius: 31px;
+  background: var(--secondary-bg-color);
+  padding: 20px;
+}
+
+.results-container > h3 {
+  color: var(--secondary-text-color);
+  font-family: "Inter", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.results-container > h1 {
+  color: var(--secondary-text-color);
+  font-family: "Inter", sans-serif;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.results-container > h2 {
+  color: var(--secondary-text-color);
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.results-container > ul {
+  color: var(--secondary-text-color);
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.results-container > p {
+  color: var(--secondary-text-color);
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.results-container > h5 {
+  font-size: 20px;
+}
+
+.results-container > img {
+   width: 50%;
+}

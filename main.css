@@ -1,0 +1,36 @@
+body {
+  background-image: url("./images/main-bg.png");
+}
+
+.text-content {
+  margin-top: 30vh;
+  width: 50%;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.text-content > h1 {
+  color: var(--main-text-color);
+  font-size: 64px;
+}
+
+.main-link {
+  color: var(--main-text-color);
+  font-size: 48px;
+  text-decoration: none;
+  padding: 46px 82px;
+  background-color: var(--main-bg-color);
+  border-radius: 25px;
+  margin-top: 20px;
+  border: 5px solid transparent;
+  transition: 0.5s;
+}
+
+.main-link:hover {
+  color: var(--main-bg-color);
+  background-color: var(--main-text-color);
+  border-color: var(--main-bg-color);
+}
